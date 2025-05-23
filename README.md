@@ -18,3 +18,4 @@ inventory-optimization-sql/
 │   └── executive_summary.pdf      # Final report (2 pages)
 │
 └── README.md                      # Project overview
+

@@ -1,0 +1,53 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore common IDE and editor files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs (DataGrip, etc.)
+.idea/
+
+# Ignore environment files (if using Python/Node tooling with SQL)
+.env
+*.env.*
+
+# Ignore SQL dump files if you don’t want to commit them
+*.sql~
+*.dump
+*.bak.sql
+*.old.sql
+
+# Ignore compiled output from SQL tools
+*.class
+*.exe
+*.dll
+*.out
+
+# Ignore database files (if using SQLite or similar)
+*.db
+*.sqlite
+*.sqlite3
+
+# Node modules (if using JavaScript tooling)
+node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Temporary backup or test files
+*.~* 
+*.tmp.sql
